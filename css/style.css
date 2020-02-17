@@ -71,7 +71,7 @@ body {
     font-weight: 400;
     letter-spacing: 2rem;
     animation: moveInLeft 1.5s ease-out; }
-    @media (max-width: 37.5em) {
+    @media (max-width: 56.25em) {
       .heading-primary--main {
         font-size: 4rem;
         letter-spacing: 1rem; } }
@@ -81,7 +81,7 @@ body {
     font-weight: 700;
     letter-spacing: 1.5rem;
     animation: moveInRight 1.5s ease-out; }
-    @media (max-width: 37.5em) {
+    @media (max-width: 56.25em) {
       .heading-primary--sub {
         font-size: 2rem; } }
 
@@ -98,7 +98,7 @@ body {
     color: #000;
     text-decoration: none;
     animation: moveInRight 1.5s ease-out; }
-    @media (max-width: 37.5em) {
+    @media (max-width: 56.25em) {
       .heading-contact--cv {
         letter-spacing: 0.7rem; } }
   .heading-contact--email {
@@ -109,7 +109,7 @@ body {
     color: #000;
     text-decoration: none;
     animation: moveInLeft 1.5s ease-out; }
-    @media (max-width: 37.5em) {
+    @media (max-width: 56.25em) {
       .heading-contact--email {
         letter-spacing: 0.6rem; } }
   .heading-contact--github {
@@ -120,7 +120,7 @@ body {
     color: #000;
     text-decoration: none;
     animation: moveInRight 1.5s ease-out; }
-    @media (max-width: 37.5em) {
+    @media (max-width: 56.25em) {
       .heading-contact--github {
         letter-spacing: 0.7rem; } }
 
@@ -208,6 +208,9 @@ body {
   background-size: cover;
   background-position: top;
   position: relative; }
+  @media (max-width: 56.25em) {
+    .header {
+      margin-top: 10rem; } }
   .header__text-box {
     position: absolute;
     top: 40%;
