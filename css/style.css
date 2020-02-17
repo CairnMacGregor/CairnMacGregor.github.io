@@ -208,7 +208,7 @@ body {
   background-size: cover;
   background-position: top;
   position: relative; }
-  @media (max-width: 56.25em) {
+  @media (max-width: 75em) {
     .header {
       margin-top: 10rem; } }
   .header__text-box {
