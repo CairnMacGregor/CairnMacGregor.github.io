@@ -217,6 +217,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+    @media (max-width: 37.5em) {
+      .header__text-box {
+        margin-top: 10rem; } }
   .header .btn {
     margin: 2rem 2rem; }
     @media (max-width: 75em) {
