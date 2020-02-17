@@ -73,7 +73,8 @@ body {
     animation: moveInLeft 1.5s ease-out; }
     @media (max-width: 37.5em) {
       .heading-primary--main {
-        font-size: 4rem; } }
+        font-size: 4rem;
+        letter-spacing: 1rem; } }
   .heading-primary--sub {
     display: inline-block;
     font-size: 3rem;
@@ -99,7 +100,7 @@ body {
     animation: moveInRight 1.5s ease-out; }
     @media (max-width: 37.5em) {
       .heading-contact--cv {
-        letter-spacing: 0.9rem; } }
+        letter-spacing: 0.7rem; } }
   .heading-contact--email {
     display: block;
     font-size: 2rem;
@@ -110,7 +111,7 @@ body {
     animation: moveInLeft 1.5s ease-out; }
     @media (max-width: 37.5em) {
       .heading-contact--email {
-        letter-spacing: 0.7rem; } }
+        letter-spacing: 0.6rem; } }
   .heading-contact--github {
     display: block;
     font-size: 2rem;
@@ -121,7 +122,7 @@ body {
     animation: moveInRight 1.5s ease-out; }
     @media (max-width: 37.5em) {
       .heading-contact--github {
-        letter-spacing: 0.9rem; } }
+        letter-spacing: 0.7rem; } }
 
 .heading-secondary {
   font-size: 3.5rem;
