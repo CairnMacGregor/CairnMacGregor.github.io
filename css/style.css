@@ -216,7 +216,7 @@ body {
     text-align: center; }
     @media (max-width: 56.25em) {
       .header__text-box {
-        margin-top: 10rem; } }
+        margin-top: 25rem; } }
   .header .btn {
     margin: 2rem 2rem; }
     @media (max-width: 75em) {
