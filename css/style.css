@@ -71,12 +71,18 @@ body {
     font-weight: 400;
     letter-spacing: 2rem;
     animation: moveInLeft 1.5s ease-out; }
+    @media (max-width: 37.5em) {
+      .heading-primary--main {
+        font-size: 4rem; } }
   .heading-primary--sub {
     display: inline-block;
     font-size: 3rem;
     font-weight: 700;
     letter-spacing: 1.5rem;
     animation: moveInRight 1.5s ease-out; }
+    @media (max-width: 37.5em) {
+      .heading-primary--sub {
+        font-size: 2rem; } }
 
 .heading-contact {
   color: #000;
@@ -84,13 +90,16 @@ body {
   backface-visibility: hidden;
   margin-bottom: 1.6rem; }
   .heading-contact--cv {
-    display: inline-block;
+    display: block;
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: 1.2rem;
     color: #000;
     text-decoration: none;
     animation: moveInRight 1.5s ease-out; }
+    @media (max-width: 37.5em) {
+      .heading-contact--cv {
+        letter-spacing: 0.9rem; } }
   .heading-contact--email {
     display: block;
     font-size: 2rem;
@@ -99,14 +108,20 @@ body {
     color: #000;
     text-decoration: none;
     animation: moveInLeft 1.5s ease-out; }
+    @media (max-width: 37.5em) {
+      .heading-contact--email {
+        letter-spacing: 0.7rem; } }
   .heading-contact--github {
-    display: inline-block;
+    display: block;
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: 1.2rem;
     color: #000;
     text-decoration: none;
     animation: moveInRight 1.5s ease-out; }
+    @media (max-width: 37.5em) {
+      .heading-contact--github {
+        letter-spacing: 0.9rem; } }
 
 .heading-secondary {
   font-size: 3.5rem;
